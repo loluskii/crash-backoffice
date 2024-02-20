@@ -101,7 +101,7 @@ module.exports = {
   },
   plugins: [
     "~/plugins/bootstrap-vue",
-    { src: "~/plugins/vue-persist.js", ssr: false },
+    // { src: "~/plugins/vue-persist.js", ssr: false },
     { src: "~/plugins/vue-notifications", ssr: false },
     { src: "~/plugins/vue-sweetalert", ssr: false },
     { src: "~/plugins/vue-select", ssr: false },
